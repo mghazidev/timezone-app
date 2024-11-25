@@ -1,7 +1,13 @@
+import React from "react";
 import "./App.css";
+import TimeCard from "././Components/Timezone"; 
 
 function App() {
-  return <div className="text-red-500">hELLO WORLD</div>;
+  return (
+    <div className="App">
+      <TimeCard />
+    </div>
+  );
 }
 
 export default App;
